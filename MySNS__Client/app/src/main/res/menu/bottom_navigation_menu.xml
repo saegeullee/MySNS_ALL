@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--drawable 오른쪽 마우스클릭 -> new -> Image Asset -> clip art -->
+    <item
+        android:id="@+id/bottom_nav_friends"
+        android:icon="@drawable/ic_person"
+        android:title="@string/friends">
+    </item>
+
+    <item
+        android:id="@+id/bottom_nav_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/chat">
+
+    </item>
+
+    <item
+        android:id="@+id/bottom_nav_news"
+        android:icon="@drawable/ic_news"
+        android:title="@string/feed">
+    </item>
+
+    <item
+        android:id="@+id/bottom_nav_feed"
+        android:icon="@drawable/ic_home"
+        android:title="@string/feed">
+    </item>
+
+    <item
+        android:id="@+id/bottom_nav_more"
+        android:icon="@drawable/ic_more"
+        android:title="@string/more">
+    </item>
+
+</menu>

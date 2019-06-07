@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">ApplicationOneProject</string>
+
+    <!-- NavigationView Menu Name-->
+
+    <string name="friends">친구</string>
+    <string name="chat">채팅</string>
+    <string name="news">뉴스</string>
+    <string name="feed">피드</string>
+    <string name="more">더보기</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="login">로그인</string>
+    <string name="id">아이디</string>
+
+    <string name="password">비밀번호</string>
+    <string name="signUp">회원가입</string>
+    <string name="password_check">비밀번호 확인</string>
+    <string name="name">이름</string>
+    <string name="email">이메일</string>
+    <string name="logout">로그아웃</string>
+    <string name="addFriend">친구추가</string>
+
+
+    <string name="add_post">포스트 추가하기</string>
+
+
+    <!-- SERVER REQUEST KEY-->
+    <!--db_user_id 와 다른점은 서버로 나의 아이디와 다른 사용자의 아이디를 동시에 보낼때 이를 구분하기 위해-->
+    <string name="db_users_my_id">my_id</string>
+
+    <string name="db_users_object">Users</string>
+    <string name="db_users_id">id</string>
+    <string name="db_users_user_id">user_id</string>
+    <string name="db_users_user_name">user_name</string>
+    <string name="db_users_user_email">user_email</string>
+    <string name="db_users_user_profile_image">profile_image</string>
+    <string name="db_users_user_profile_image_name">profile_image_name</string>
+    <string name="db_users_token">token</string>
+
+
+    <string name="db_users_friend_id">friend_id</string>
+
+    <string name="db_post_id">post_id</string>
+    <string name="db_post_image">image</string>
+    <string name="db_post_date">date</string>
+    <string name="db_post_image_name">image_name</string>
+    <string name="db_post_description">description</string>
+
+    <string name="db_follower_id">follower_id</string>
+    <string name="db_followee_id">followee_id</string>
+
+    <string name="db_post_comment">post_comment</string>
+    <string name="db_post_comment_id">post_comment_id</string>
+
+    <string name="db_chat_room_id">chat_room_id</string>
+    <string name="db_chat_room_add_user_list">chat_room_add_user_list</string>
+    <string name="db_create_group_chatroom">create_group_chatroom</string>
+
+
+    <!-- Intent Key -->
+    <string name="intent_post_edit">intent_post_edit</string>
+    <string name="intent_user_id">intent_user_id</string>
+    <string name="intent_post_id">intent_post_id</string>
+
+    <string name="intent_chatroom_id">intent_chatroom_id</string>
+    <string name="intent_chatroom_size">intent_chatroom_size</string>
+    <string name="intent_chatroom_friend_id">intent_chatroom_friend_id</string>
+
+    <string name="intent_chatroom_is_one_to_one_chatroom">intent_chatroom_is_one_to_one_chatroom</string>
+    <string name="intent_chatroom_notice_create_new_chatroom">intent_chatroom_notice_create_new_chatroom</string>
+
+    <string name="intent_news_content">intent_news_content</string>
+
+
+    <string name="num_count">개</string>
+
+    <!--ChatRoom-->
+
+    <string name="chatroom_member_list">chatroom_member_list</string>
+    <string name="chatroom_add_member_list">chatroom_add_member_list</string>
+
+
+</resources>
